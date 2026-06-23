@@ -1,0 +1,13 @@
+[project]
+name = "rupeeradar"
+version = "0.1.0"
+description = "AI-powered personal finance assistant that analyzes bank statements"
+requires-python = ">=3.9"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["app/tests"]
+asyncio_mode = "auto"

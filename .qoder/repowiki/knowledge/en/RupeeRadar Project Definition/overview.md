@@ -1,0 +1,1 @@
+Defines the scope, requirements, and evaluation criteria for an AI-powered personal finance assistant that analyzes bank statements.
