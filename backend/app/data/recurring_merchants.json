@@ -1,0 +1,102 @@
+{
+  "recurring_merchants": [
+    {
+      "name": "Netflix",
+      "aliases": ["NETFLIX", "NETFLIX SUBSCRIPTION", "NETFLIX.COM"],
+      "category": "Subscriptions",
+      "typical_amount": 499,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Spotify",
+      "aliases": ["SPOTIFY", "SPOTIFY PREMIUM", "SPOTIFY.COM"],
+      "category": "Subscriptions",
+      "typical_amount": 119,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Amazon Prime",
+      "aliases": ["AMAZON PRIME", "PRIME MEMBERSHIP", "AMAZON.PRIME"],
+      "category": "Subscriptions",
+      "typical_amount": 299,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Jio Recharge",
+      "aliases": ["JIO", "JIO RECHARGE", "RELIANCE JIO"],
+      "category": "Bills",
+      "typical_amount": 199,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Airtel Recharge",
+      "aliases": ["AIRTEL", "AIRTEL RECHARGE", "AIRTEL PREPAID"],
+      "category": "Bills",
+      "typical_amount": 199,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Home Rent",
+      "aliases": ["RENT", "HOUSE RENT", "FLAT RENT", "ROOM RENT"],
+      "category": "Rent",
+      "typical_amount": null,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Electricity Bill",
+      "aliases": ["ELECTRICITY", "ELECTRICITY BILL", "ELEC BILL", "TPDDL", "BSES", "MSEDCL"],
+      "category": "Bills",
+      "typical_amount": null,
+      "frequency": "monthly"
+    },
+    {
+      "name": "SIP Investment",
+      "aliases": ["SIP", "SIP INVESTMENT", "MUTUAL FUND SIP"],
+      "category": "Investments",
+      "typical_amount": null,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Insurance Premium",
+      "aliases": ["INSURANCE", "INSURANCE PREMIUM", "LIC", "HDFC LIFE", "ICICI PRUDENTIAL"],
+      "category": "Bills",
+      "typical_amount": null,
+      "frequency": "monthly"
+    },
+    {
+      "name": "EMI Payment",
+      "aliases": ["EMI", "HOME LOAN EMI", "CAR LOAN EMI", "PERSONAL LOAN EMI", "BAJAJ EMI", "HDFC EMI"],
+      "category": "EMI",
+      "typical_amount": null,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Gym Membership",
+      "aliases": ["GYM", "GYM MEMBERSHIP", "FITNESS", "CULT", "CULTFIT"],
+      "category": "Other",
+      "typical_amount": 1500,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Cloud Storage",
+      "aliases": ["GOOGLE ONE", "ICLOUD", "DROPBOX", "GOOGLE STORAGE"],
+      "category": "Subscriptions",
+      "typical_amount": 195,
+      "frequency": "monthly"
+    },
+    {
+      "name": "Car Insurance",
+      "aliases": ["CAR INSURANCE", "MOTOR INSURANCE", "VEHICLE INSURANCE"],
+      "category": "Bills",
+      "typical_amount": null,
+      "frequency": "annual"
+    },
+    {
+      "name": "Health Insurance",
+      "aliases": ["HEALTH INSURANCE", "MEDICAL INSURANCE", "STAR HEALTH"],
+      "category": "Bills",
+      "typical_amount": null,
+      "frequency": "annual"
+    }
+  ]
+}

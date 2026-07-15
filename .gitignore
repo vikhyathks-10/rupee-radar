@@ -10,8 +10,7 @@ build/
 .env
 .env.local
 
-# Data
-data/
+# Database
 *.db
 
 # IDE
@@ -28,6 +27,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-.env
-.env.local
