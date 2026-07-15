@@ -27,10 +27,14 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# CORS — allow the frontend dev server origin
+# CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.frontend_url],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://rupee-radar-sigma.vercel.app",
+        "https://rupee-radar-nk9bdlfqe-vikki5.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -42,4 +46,8 @@ app.include_router(api_router, prefix="/api")
 
 @app.get("/api/health")
 async def health_check():
-    return {"status": "ok", "service": "RupeeRadar Backend", "version": "0.1.0"}
+    return {
+        "status": "ok",
+        "service": "RupeeRadar Backend",
+        "version": "0.1.0",
+    }
